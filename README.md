@@ -1,57 +1,58 @@
-# 📦 Sistema de Rastreamento de Encomendas via WhatsApp (Demo)
+# 📦 WhatsApp Package Tracking System (Demo)
 
-> 🚀 Versão demonstrativa de um sistema automatizado de rastreamento de encomendas integrado ao WhatsApp.
+> 🚀 Demonstration version of an automated package tracking system integrated with WhatsApp.
 > Transform your WhatsApp into an automated tracking and customer service system.
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 About the Project
 
-Este projeto é uma **demonstração funcional** de um sistema capaz de:
+This project is a **functional demonstration** of a system capable of:
 
-* 📲 Automatizar interações via WhatsApp
-* 📦 Consultar status de encomendas
-* 🌐 Exibir informações via interface web
-* ⚙️ Integrar múltiplas tecnologias (Node.js + Python + Web)
+* 📲 Automating interactions via WhatsApp
+* 📦 Checking package tracking status
+* 🌐 Displaying information through a web interface
+* ⚙️ Integrating multiple technologies (Node.js + Python + Web)
 
-⚠️ **Importante:**
-Esta é uma versão **limitada/demonstrativa**.
-A versão completa contém funcionalidades avançadas que **não estão disponíveis publicamente**.
+⚠️ **Important:**
+This is a **limited/demo version**.
+The full version includes advanced features that are **not publicly available**.
 
 ---
 
-## 🧠 Tecnologias Utilizadas
+## 🧠 Technologies Used
 
-* **JavaScript (Node.js)** → Automação WhatsApp
+* **JavaScript (Node.js)** → WhatsApp automation
 * **Python (Flask)** → Backend / API
-* **HTML** → Interface web
+* **HTML** → Web interface
 
 ---
 
-## 🎯 Funcionalidades (Demo)
+## 🎯 Features (Demo)
 
-* ✅ Interface web funcional
-* ✅ Simulação de rastreamento
-* ✅ Estrutura parcial do sistema
-* ❌ Integrações reais removidas
-* ❌ Automação completa indisponível
+* ✅ Functional web interface
+* ✅ Tracking simulation
+* ✅ Partial system structure
+* ❌ Real integrations removed
+* ❌ Full automation not available
 
 ---
 
-## 🚀 Como Executar
+## 🚀 How to Run
 
 ```bash
-# Instalar dependências
+# Install dependencies
+instalar.bat
 npm install
 
-# Rodar o bot
+# Run the bot
 node whatsapp-rastreio.js
 
-# Rodar o backend
+# Run the backend
 python app.py
 ```
 
-Acesse:
+Access:
 
 ```
 http://localhost:5000
@@ -59,37 +60,37 @@ http://localhost:5000
 
 ---
 
-## 💼 Versão Completa
+## 💼 Full Version
 
-A versão completa do sistema inclui:
+The full version of the system includes:
 
-* 🔥 Integração real com serviços de rastreamento
-* 🤖 Automação avançada no WhatsApp
-* 📊 Funcionalidades adicionais
-* ⚡ Melhor performance e segurança
+* 🔥 Real integration with tracking services
+* 🤖 Advanced WhatsApp automation
+* 📊 Additional features
+* ⚡ Better performance and security
 
-📩 Para acesso comercial ou licenciamento:
+📩 For commercial access or licensing:
 
-* Íkaro Henrique — +55 18 997063343
+* Ikaro Henrique — +55 18 997063343
 * Matheus Numata — +55 14 998871737
 
 ---
 
-## ⚠️ Aviso Legal
+## ⚠️ Legal Notice
 
-Este repositório tem finalidade **exclusivamente educacional e demonstrativa**.
+This repository is intended **for educational and demonstration purposes only**.
 
-O uso, modificação, distribuição ou exploração comercial deste código **não é permitido sem autorização**.
-
----
-
-## 📜 Licença
-
-Este projeto está sob uma licença proprietária.
-Consulte o arquivo `LICENSE.md` para mais detalhes.
+Any use, modification, distribution, or commercial exploitation of this code is **strictly prohibited without authorization**.
 
 ---
 
-## ⭐ Destaque
+## 📜 License
 
-Se este projeto te chamou atenção, considere entrar em contato para acesso à versão completa 🚀
+This project is under a proprietary license.
+See the `LICENSE.md` file for more details.
+
+---
+
+## ⭐ Highlight
+
+If this project caught your attention, feel free to get in touch to access the full version 🚀
