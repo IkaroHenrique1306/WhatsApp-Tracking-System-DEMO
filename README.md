@@ -1,6 +1,7 @@
 # 📦 Sistema de Rastreamento de Encomendas via WhatsApp (Demo)
 
 > 🚀 Versão demonstrativa de um sistema automatizado de rastreamento de encomendas integrado ao WhatsApp.
+> Transform your WhatsApp into an automated tracking and customer service system.
 
 ---
 
