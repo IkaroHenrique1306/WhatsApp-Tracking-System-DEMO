@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreio WA</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; background: #f5f5f5; color: #333; }
+        h1 { font-size: 22px; margin-bottom: 4px; }
+        p.sub { color: #888; font-size: 13px; margin-bottom: 32px; }
+        h2 { font-size: 15px; margin-bottom: 12px; color: #444; }
+        form { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        form input { flex: 1; min-width: 160px; padding: 8px 12px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; }
+        form button { padding: 8px 20px; background: #25d366; color: #fff; border: none; border-radius: 6px; font-size: 14px; font-weight: bold; cursor: pointer; }
+        form button:hover { background: #1ebe57; }
+        table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        th { background: #f9f9f9; padding: 10px 14px; text-align: left; font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid #eee; }
+        td { padding: 10px 14px; font-size: 14px; border-bottom: 1px solid #f0f0f0; }
+        tr:last-child td { border-bottom: none; }
+        .cod { font-family: monospace; background: #f0f0f0; padding: 2px 7px; border-radius: 4px; font-size: 13px; display: inline-block; margin: 2px 2px 2px 0; }
+        .btn-rem { font-size: 12px; color: #e53935; text-decoration: none; border: 1px solid #ffcdd2; padding: 2px 8px; border-radius: 4px; }
+        .btn-rem:hover { background: #ffebee; }
+        .empty { text-align: center; padding: 40px; color: #aaa; font-size: 14px; }
+        footer { text-align: center; margin-top: 40px; font-size: 12px; color: #bbb; }
+    </style>
+</head>
+<body>
+
+<h1>📦 Rastreio WA</h1>
+<p class="sub">Gerencie os rastreios cadastrados</p>
+
+<h2>Adicionar rastreio</h2>
+<form action="/adicionar" method="post">
+    <input type="text" name="nome" placeholder="Destinatário" required>
+    <input type="text" name="numero" placeholder="Número (ex: 5541999990000)" required>
+    <input type="text" name="codigo" placeholder="Código de rastreio" required>
+    <button type="submit">Adicionar</button>
+</form>
+
+<h2>Rastreios cadastrados</h2>
+{% if dados %}
+<table>
+    <thead>
+        <tr>
+            <th>Destinatário</th>
+            <th>Número</th>
+            <th>Códigos</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for nome, contatos in dados.items() %}
+            {% for numero, codigos in contatos.items() %}
+            <tr>
+                <td>{{ nome }}</td>
+                <td>{{ numero }}</td>
+                <td>{% for cod in codigos %}<span class="cod">{{ cod }}</span>{% endfor %}</td>
+                <td>
+                    {% for cod in codigos %}
+                    <a href="/remover/{{ nome }}/{{ numero }}/{{ cod }}" class="btn-rem"
+                       onclick="return confirm('Remover {{ cod }}?')">✕ {{ cod }}</a>
+                    {% endfor %}
+                </td>
+            </tr>
+            {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty">Nenhum rastreio cadastrado.</div>
+{% endif %}
+
+<footer>© 2026 — Íkaro Henrique Marçal Alexandre & Matheus Kioshi Fernandes Numata</footer>
+
+</body>
+</html>
