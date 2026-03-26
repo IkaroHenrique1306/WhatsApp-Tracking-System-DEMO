@@ -1,69 +1,69 @@
-# Licença Proprietária de Uso de Software
+# Proprietary Software License
 
-© 2026 Íkaro Henrique Marçal Alexandre & Matheus Kioshi Fernandes Numata
-Todos os direitos reservados.
-
----
-
-## 1. Propriedade Intelectual
-
-Este software e todo o seu conteúdo associado (incluindo código-fonte, estrutura, lógica, funcionalidades e documentação) são propriedade exclusiva dos autores.
+© 2026 Ikaro Henrique Marçal Alexandre & Matheus Kioshi Fernandes Numata  
+All rights reserved.
 
 ---
 
-## 2. Concessão de Uso
+## 1. Intellectual Property
 
-Este repositório é disponibilizado **exclusivamente para fins educacionais e demonstrativos**.
-
-Nenhum direito de uso, cópia, modificação, distribuição ou exploração comercial é concedido ao usuário.
+This software and all associated content (including source code, structure, logic, features, and documentation) are the exclusive property of the authors.
 
 ---
 
-## 3. Restrições
+## 2. Grant of Use
 
-É estritamente proibido, sem autorização prévia e expressa dos autores:
+This repository is provided **strictly for educational and demonstration purposes only**.
 
-* Copiar, reproduzir ou redistribuir este software
-* Modificar ou criar trabalhos derivados
-* Realizar engenharia reversa, descompilação ou tentativa de extração da lógica do sistema
-* Utilizar o software para fins comerciais
-* Sub-licenciar, vender ou disponibilizar este software a terceiros
+No rights are granted to the user to use, copy, modify, distribute, or commercially exploit this software.
 
 ---
 
-## 4. Versão Demonstrativa
+## 3. Restrictions
 
-Este repositório contém uma **versão parcial e demonstrativa** do sistema.
+Without prior explicit written permission from the authors, it is strictly prohibited to:
 
-Funcionalidades críticas, integrações e componentes completos foram intencionalmente removidos ou limitados.
-
----
-
-## 5. Licenciamento Comercial
-
-O uso completo do sistema, incluindo acesso à versão integral, depende de **licenciamento comercial**.
-
-Para aquisição, parcerias ou autorização de uso:
-
-* Íkaro Henrique Marçal Alexandre — +55 18 997063343
-* Matheus Kioshi Fernandes Numata — +55 14 998871737
+* Copy, reproduce, or redistribute this software  
+* Modify or create derivative works  
+* Reverse engineer, decompile, or attempt to extract the system’s logic  
+* Use the software for commercial purposes  
+* Sub-license, sell, or make this software available to third parties  
 
 ---
 
-## 6. Isenção de Responsabilidade
+## 4. Demonstration Version
 
-Este software é fornecido **"no estado em que se encontra"**, sem garantias de qualquer tipo, expressas ou implícitas.
+This repository contains a **partial and demonstrative version** of the system.
 
-Os autores não se responsabilizam por quaisquer danos diretos, indiretos, incidentais ou consequenciais decorrentes do uso deste software.
-
----
-
-## 7. Violações
-
-Qualquer uso não autorizado deste software constitui violação de direitos autorais e poderá resultar em medidas legais conforme a legislação aplicável.
+Critical features, integrations, and full components have been intentionally removed or limited.
 
 ---
 
-## 8. Aceitação
+## 5. Commercial Licensing
 
-Ao acessar este repositório, o usuário declara estar ciente e concordar com os termos desta licença.
+Full use of the system, including access to the complete version, requires a **commercial license**.
+
+For acquisition, partnerships, or usage authorization:
+
+* Ikaro Henrique Marçal Alexandre — +55 18 997063343  
+* Matheus Kioshi Fernandes Numata — +55 14 998871737  
+
+---
+
+## 6. Disclaimer
+
+This software is provided **"as is"**, without warranty of any kind, express or implied.
+
+The authors shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of this software.
+
+---
+
+## 7. Violations
+
+Any unauthorized use of this software constitutes a violation of copyright law and may result in legal action under applicable legislation.
+
+---
+
+## 8. Acceptance
+
+By accessing this repository, the user acknowledges and agrees to the terms of this license.
